@@ -14,7 +14,8 @@ void main() {
   //null-aware acces : check if user is null os ignore it
   print(user?.name); //output : null
   //null operator
-  user = null ?? User(name: "Djamel");
+  var value = null;
+  user = value ?? User(name: "Djamel");
   //null aware assignnmeny
   user ??= User(name: "Abdelhadi");
   print(user.name); //output : Djamel
