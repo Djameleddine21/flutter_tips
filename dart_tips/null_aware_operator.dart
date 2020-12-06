@@ -16,7 +16,7 @@ void main() {
   //null operator
   var value = null;
   user = value ?? User(name: "Djamel");
-  //null aware assignnmeny
+  //null aware assignnment
   user ??= User(name: "Abdelhadi");
   print(user.name); //output : Djamel
 }
